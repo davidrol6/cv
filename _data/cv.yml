@@ -1,78 +1,113 @@
-url: http://streetturtle.github.io
-projectUrl: jekyl-cv-crafter
+url: http://davidrol6.github.io
+projectUrl: cv
 
 # leave blank fields which you don't want to fill/be displayed
 person:
-  name: Michelangelo
-  depiction: headshot.png
-  profession: Teenage Mutant Ninja Turtle
-  location: sewers of New York City
-  citizenship: USA
-  email: mikey@tmnt.com
-  site: http://mikeystmnt.com
-  phone: +8-tmnt-mickey
-  github: /streetturtle
-  stackoverflow: /streetturtle
-  linkedin: /streetturtle
+  name: David Roldán Álvarez
+  depiction: myself.png
+  profession: Assistant teacher
+  location: Madrid
+  citizenship: Spain
+  email: david.roldan[at]urjc.es
+  site:
+  phone:
+  github: /davidrol6
+  twitter: /davidrolalv
+  stackoverflow:
+  linkedin:
 
 career:
- - position: Foot Clan Antagonist
-   company: TMNT inc.
-   location: New York, USA
-   dates: September 2014 - current
-   summary: Physically the smallest of the Turtles and the least mature. Mikey is easily distracted and enthusiastic about... well, pretty much everything. He's also extremely creative. He has a thousand ideas, and every now and then, one of them will be brilliant. This combination of creativity and lack of focus gives him a kind of flow that the other Turtles cannot match. He's a social mutant and more than the others, pines to be part of the real world.
+ - position: Assistant teacher
+   company: Universidad Rey Juan Carlos
+   location: Móstoles, Madrid, Spain
+   dates: September 2018 - current
+   summary: Professor of the School of Telecommunications Engineering. I teach mostly programming and database subjects.
    accomplishments:
-    - accomplishment: Mikey is the most agile of all his brothers; his training as a ninja helped to balance and improve this, but his skills in skateboarding and dancing also gives Mikey an edge that will often shock his brothers. Mikey is an extremely good fighter. He's got a great knowledge with ninjutsu, which is why he is a good fighter. He may have the most raw talent of the four, but he does not seem to have the skill to develop it.
-    - accomplishment: He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
- - position: Shredder enemy
-   company: TMNT
-   location: New York, USA
-   dates: October 2012 – September 2014
-   summary: Impulsive, creative and very social, Michelangelo is the heart and soul of the Ninja Turtles. The runt of the litter, he may be the smallest of his mutant brothers, but that doesn't make him the weakest (just harder to catch). Enemies beware! Michelangelo is a master of the Kusarigama, nunchucks with a secret and sharp surprise!
+    - accomplishment: Working in a lot of programming projects: DEDOS, ClipIt, Bluethinking, CS-Track.
+    - accomplishment: Still programming a lot even though teaching consumes a large part of my time.
+ - position: Pre-doctoral researcher
+   company: Universidad Autónoma de Madrid
+   location: Madrid, Spain.
+   dates: September 2015 – August 2018
+   summary: Pre-doctoral researcher in the e-integra project. 
    accomplishments:
-    - accomplishment: Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
-    - accomplishment: He has the normal ability of a turtle to go into his shell.
+    - accomplishment: I finished my PhD during this period!
+    - accomplishment: Three conference presentations in the same week.
+    - accomplishment: Won some research awards.
+ - position: Administrative and service staff
+   company: Universidad Rey Juan Carlos
+   location: Móstoles, Madrid, Spain.
+   dates: March 2011 – September 2015
+   summary: Administrative staff in the External Practice Unit. Students at URJC must complete an internship in a company before finishing their degree. I, along with the rest of the department, were responsible for all the administrative steps necessary for this activity to take place. I al served as IT staff in the department.
+   accomplishments:
+    - accomplishment: Customer service work that complemented my technical skills.
+    - accomplishment: Started my PhD and also won some research awards.
 
 technicalSkills:
   list:
-    - tr: "Impulsive, creative and very social"
-    - tr: "Heart and soul of the Ninja Turtles"
-    - tr: "Master of the Kusarigama and nunchucks"
-    - tr: "Labeled as 'The Wild One' and 'The Party Dude'"
-    - tr: "First of the turtles to taste pizza"
-    - tr: "Very proud of his talent for naming thing"
+    - tr: "Fast learner"
+    - tr: "I do not stop until I find a solution for a given problem"
+    - tr: "I like to document my code"
+    - tr: "My dog helps me with debugging stuff"
+    - tr: "Very proud of his talent for inventing names"
   backend:
-   - name: Ninjutsu
+   - name: Django
      level: 90
-   - name: Kusarigama
-     level: 80
+   - name: Nodejs
+     level: 90
   frontend:
-   - name: Cooking Skills
-     level: 80
-   - name: Pranks
+   - name: Angular
+     level: 70
+   - name: HTML/CSS/Bootstrap
      level: 90
   other:
-   - name: Shadow Puppet Skill
+   - name: Sphinx
      level: 90
+   - name: SQL, MongoDB:
+     level: 100
    - name: Teaching
      level: 100
 
 sideProjects:
-  - name: jekyll-clean-dark
-    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
-    link: https://github.com/streetturtle/jekyll-clean-dark
-    type: github
-    langs: HTML/CSS/Bootstrap
 
-  - name: number-writing-trainer
-    description: Application which helps with learning foreign numerals. Was created to help with learning how to write french numbers as well as to practice AngularJS.
-    link: http://pavelmakhov.com/number-writing-trainer/#/
+  - name: CS-Track
+    description: CS Track is broadening our knowledge about Citizen Science by investigating Citizen Science activities, disseminating good practices and formulating knowledge-based policy recommendations to maximise the potential benefit of Citizen Science activities on individual citizens, organisations, and society at large. 
+    link: https://cstrack.eu/
     type: site
-    langs: AngularJS/HTML/CSS/Bootstrap
+    langs: Python/Sphinx
+
+  - name: RoboticsAcademy
+    description: Robotics-Academy is an open source collection of exercises and challenges to learn robotics in a practical way. There are exercises about drone programming, about computer vision, about mobile robots, about autonomous cars, etc. It is mainly based on Gazebo simulator and ROS. The students program their solutions in Python language. 
+    link: https://jderobot.github.io/RoboticsAcademy/
+    type: site
+    langs: Javascript/HTML/CSS/Python
+    
+  - name: Bluethinking
+    description: A cognitively accessible application that will allow people with Autism Spectrum Disorder (ASD) to learn programming while exercising and strengthening executive functions. 
+    link: http://bluethinking.es/
+    type: site
+    langs: Javascript/HTML/CSS
+    
+  - name: DEDOS
+    description: two software tools whose combination allows teachers to create educational activities that can be executed on a multi-contact table. We have applied significant effort to design a tool that, while original, is easy to understand and use, and meets the needs of educators without requiring technical knowledge.
+    link: https://aprendecondedos.es/
+    type: site
+    langs: HTML/CSS/Bootstrap/Python/Javascript/ActionScript
+    
 
 education:
-  - name: Master Splinter Academy
-    degree: Mutant Red-Eared Slider
-    location: sewers of New York City
-    dates: 2007 – 2012
-    link: http://tmnt2012series.wikia.com/
+  - name: PhD in Interactive Computing and Multimedia
+    degree: Universidad Rey Juan Carlos
+    dates: 2012 – 2017
+    
+  - name: Másters Degree in Information Systems Engineering
+    degree: Universidad Rey Juan Carlos
+    dates: 2011 – 2012
+    
+  - name: Másters Degree in Interactive Computing and Multimedia
+    degree: Universidad Rey Juan Carlos
+    dates: 2010 – 2011
+    
+  - name: Technical Engineering in Computer Management
+    degree: Universidad Rey Juan Carlos
+    dates: 2007 – 2010
