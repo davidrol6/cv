@@ -65,6 +65,8 @@ technicalSkills:
      level: 90
    - name: SQL, MongoDB
      level: 100
+   - name: Docker
+     level: 100
    - name: Teaching
      level: 100
 
